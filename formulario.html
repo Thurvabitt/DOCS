@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Muda cores</title>
+        <script src="js/teste.js"></script>
+        <link rel="stylesheet" href="css/formulario.css">
+
+
+
+</head>
+    <body id="meufundo"> 
+        <center>
+        <h1>QUAL COR DE FUNDO VOCÊ QUER?</h1>
+        <h2>insira as cores em inglês, por exemplo: blue, red, green etc</h2>
+       
+        <form> 
+         <div class="container text-center">
+
+            <div class="form-group">
+				<label for="name">Nome:</label>
+				<input type="text" class="form-control" id="name" name="name" placeholder="Digite seu nome">
+			</div>
+
+
+			<div class="form-group">
+				<label for="email">E-mail:</label>
+				<input type="email" class="form-control" id="email" name="email" placeholder="Digite seu e-mail">
+			</div>
+
+
+
+
+            <input type="text" id="bgcolor">
+
+         </div>
+
+            <!-- Ao clicar puxa a função trocarcor() -->
+            <input type="submit" value="TROCAR" onclick="trocarcor();return false;"> 
+        </form>
+        <p id="cor_escolhida"></p>
+    
+        
+    </center> 
+
+
+
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+

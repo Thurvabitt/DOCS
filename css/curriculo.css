@@ -1,0 +1,36 @@
+body{
+    background-color: #E3D5CA;
+}
+
+h1{
+    color: #343a40;
+    font-weight: bold
+}
+
+.inicio{
+ font-size: 140%;
+ font-weight: initial;
+}
+
+h2{
+    color: #343a40;
+    font-weight: bold;
+}
+
+p{
+    color: #343a40;
+    font-weight: bold;
+}
+
+li{
+    color: #343a40;
+    font-weight: bold;
+}
+
+hr{
+    color: #463f3a;
+    width: 80%;
+
+
+
+}
